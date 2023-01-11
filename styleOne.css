@@ -1,0 +1,54 @@
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  border-radius: 80px;
+  background-color: lightyellow;
+}
+
+.card img {
+  width: 100%;
+  border-top-right-radius: 80px;
+  border-top-left-radius: 80px;
+}
+
+h3,
+.price {
+  font-size: 1.5em;
+  color: #612406;
+  font-family: arial;
+}
+
+h3 {
+  text-align: left;
+  padding-left: 4%;
+  margin-bottom: 2px;
+}
+
+.prod-description {
+  color: #612406;
+  font-family: arial;
+  text-align: left;
+  padding-left: 4%;
+  margin-top: 0;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+article button {
+  background-color: #f3df85;
+  color: #612406;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  border-style: none;
+  padding: 12px;
+  text-align: center;
+  cursor: pointer;
+  width: 60%;
+  font-size: 18px;
+}

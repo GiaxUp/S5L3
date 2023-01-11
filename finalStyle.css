@@ -1,0 +1,35 @@
+/* Navbar */
+li > img {
+  width: 25px;
+  padding-right: 1.2em;
+}
+
+li {
+  background-color: #f3df85;
+  color: #612406;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  border-style: none;
+  padding: 12px;
+  cursor: pointer;
+  width: 10%;
+  font-size: 18px;
+  list-style-type: none;
+  font-family: arial;
+  display: inline-block;
+  justify-content: space-between;
+}
+
+nav {
+  background-color: #fbf7e3;
+  border-radius: 20px;
+  width: 70%;
+  text-align: center;
+  justify-content: space-around;
+}
+
+.shop {
+  text-transform: uppercase;
+  font-size: 1.6em;
+  font-weight: 700;
+}
